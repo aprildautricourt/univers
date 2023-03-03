@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-image: url("./john-fowler-7Ym9rpYtSdA-unsplash.jpeg");
+  background-position: center;
+}
+.nav-V {
+  background-color: black;
+  border-right: 3px solid white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 50px;
+  width: 100px;
+}
+.btn-group-vertical {
+  width: 85px;
+
+  height: 100px;
+  margin-top: 40px;
+}
+#container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+#result {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(27, 77, 133);
+}
+.card-text2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3px;
+  color: rgb(27, 77, 133);
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
